@@ -7,7 +7,8 @@ class Car{
         string brand;
     private:
         int year;
-
+    public:
+        int age;
     public:
         Car(string b , int y){
             brand = b;
